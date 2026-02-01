@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harun Nzai Randu - Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Mobile Header -->
+  <header class="mobile-header">
+    <div class="mobile-header-content">
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="mobile-logo">
+        <span>HNR</span>
+      </div>
+      <button class="mobile-about-toggle" aria-label="About menu">
+        <i class="fas fa-ellipsis-v"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay for mobile -->
+  <div class="overlay"></div>
+
+  <div class="main-wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-content">
+        <!-- Profile Section -->
+        <div class="profile-section">
+          <div class="profile-image-container">
+            <img
+              class="profile-image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-NutHBmZJpae5xr9_Iz3MqHkvPikDd3fkRihrxMM0xgj-TEWRviDKjBHYjvZutcKHNk&usqp=CAU"
+              alt="Harun Nzai Randu"
+            />
+            <div class="status-indicator"></div>
+          </div>
+          <h2 class="profile-name">Engineer Harun</h2>
+          <p class="profile-title">Full Stack Software Developer</p>
+          <div class="profile-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Mombasa, Kenya</span>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="sidebar-nav">
+          <a href="#home" class="nav-link active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="#about" class="nav-link">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+          </a>
+          <a href="#services" class="nav-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Services</span>
+          </a>
+          <a href="#contact" class="nav-link">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+          <h3 class="section-title">Tech Stack</h3>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Frontend Development</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Backend Development</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Database Management</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Mobile Development</span>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technologies -->
+        <div class="technologies-section">
+          <h3 class="section-title">Technologies</h3>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-js-square"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-vue"></i>
+              <span>Vue.js</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-database"></i>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download Resume -->
+        <div class="resume-section">
+          <a href="#" class="resume-btn">
+            <i class="fas fa-download"></i>
+            <span>Download Resume</span>
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-section">
+          <a href="https://www.linkedin.com/in/nzai-harun" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/hanzara/" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:nzaiharun28@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/254705448355" target="_blank" class="social-link">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-background">
+          <div class="hero-overlay"></div>
+          <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hero Background" class="hero-bg-image" />
+        </div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="greeting">Hello, I'm</span>
+              <span class="name">Harun Nzai Randu</span>
+            </h1>
+            <h2 class="hero-subtitle">Aspiring Software Engineer</h2>
+            <div class="typing-container">
+              <span class="code-bracket">&lt;</span>
+              <span class="code-tag">Achievement</span>
+              <span class="code-bracket">&gt;</span>
+              <span class="typing-text">Startup Founder Of <span id="typing-text"></span></span>
+              <span class="cursor"></span>
+              <span class="code-bracket">&lt;/</span>
+              <span class="code-tag">Achievement</span>
+              <span class="code-bracket">&gt;</span>
+            </div>
+            <div class="hero-buttons">
+              <a href="#about" class="btn btn-primary">About Me</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-NutHBmZJpae5xr9_Iz3MqHkvPikDd3fkRihrxMM0xgj-TEWRviDKjBHYjvZutcKHNk&usqp=CAU" alt="Harun Nzai Randu" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="stats-section">
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Hours of Work</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know me better</p>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p>I'm a passionate Full Stack Software Developer with 2+ years of experience in creating digital solutions. Currently pursuing my Bachelor's degree in Information Technology at Technical University of Mombasa, I'm dedicated to continuous learning and innovation.</p>
+              <p>My journey in tech has led me to master various technologies including Python, JavaScript, React, Vue.js, and mobile development with Flutter. I'm also expanding my expertise in Data Science through ALX School of Data and AWS Generative AI through Udacity.</p>
+              <div class="about-details">
+                <div class="detail-item">
+                  <strong>Education:</strong>
+                  <span>Bachelor of Science in Information Technology</span>
+                </div>
+                <div class="detail-item">
+                  <strong>Location:</strong>
+                  <span>Mombasa, Kenya</span>
+                </div>
+                <div class="detail-item">
+                  <strong>Email:</strong>
+                  <span>nzaiharun28@gmail.com</span>
+                </div>
+                <div class="detail-item">
+                  <strong>Age:</strong>
+                  <span>20 Years</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-NutHBmZJpae5xr9_Iz3MqHkvPikDd3fkRihrxMM0xgj-TEWRviDKjBHYjvZutcKHNk&usqp=CAU" alt="About Harun" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-subtitle">What I can do for you</p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="service-title">Web Development</h3>
+              <p class="service-description">
+                Custom website creation that aligns with your brand identity and engages your audience effectively. Including responsive design, CMS integration, and API development.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I'm%20interested%20in%20your%20Web%20Development%20services." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3 class="service-title">Mobile Development</h3>
+              <p class="service-description">
+                Cross-platform mobile applications using Flutter and React Native. From concept to deployment, creating apps that work seamlessly across all devices.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I'd%20like%20to%20discuss%20Mobile%20App%20Development." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3 class="service-title">Web Hosting</h3>
+              <p class="service-description">
+                Reliable web hosting services with 99.9% uptime guarantee, free SSL certificates, and 24/7 support. Scalable solutions that grow with your business.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I'm%20inquiring%20about%20Web%20Hosting%20services." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h3 class="service-title">Domain Registration</h3>
+              <p class="service-description">
+                Secure your online presence with our domain registration services. Choose from a variety of extensions at competitive prices.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I%20need%20help%20with%20Domain%20Registration." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="service-title">Data Analytics</h3>
+              <p class="service-description">
+                Transform your data into actionable insights with advanced analytics and machine learning solutions. Make data-driven decisions for your business.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I'm%20interested%20in%20Data%20Analytics%20services." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="service-title">Cybersecurity</h3>
+              <p class="service-description">
+                Protect your digital assets with comprehensive cybersecurity solutions. Security audits, vulnerability assessments, and protection strategies.
+              </p>
+              <a href="https://wa.me/254705448355?text=Hello%20Harun,%20I%20need%20Cybersecurity%20consultation." class="service-link" target="_blank">
+                Get Started <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>nzaiharun28@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <p>+254 705 448 355</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Mombasa, Kenya</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <form id="contact-form">
+                <div class="form-group">
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                  <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <p>&copy; 2025 Harun Nzai Randu. All Rights Reserved.</p>
+            <p>Designed and Developed with <i class="fas fa-heart"></i> by Engineer Nzai</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Mobile About Modal -->
+  <div class="mobile-about-modal">
+    <button id="about-modal-button">About Me</button>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
